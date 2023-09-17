@@ -1,0 +1,20 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ border: none;
+}
+
+:root {
+ --background: #282c33;
+ --primary: #c778dd;
+ --gray: #abb2bf;
+ --white: #ffffff;
+}
+
+body,
+html {
+ height: 100%;
+ font-family: "Fira Code", monospace;
+ background-color: var(--background);
+}
