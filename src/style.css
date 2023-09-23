@@ -204,6 +204,36 @@ html {
 .skills {
 flex: 1;
 }
+.skills-content {
+margin-left: auto;
+width: 60%;
+
+
+}
+.skills-content-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+}
+.skills-content-list-item {
+  border: 1px solid var(--gray);
+  font-size: 16px;
+  max-width: 33%;
+  width: 100%;
+}
+.skills-content-item-title {
+  color: var(--white);
+  padding: 8px;
+  font-weight: 600;
+}
+.skills-content-item-content {
+color: var(--gray);
+font-weight: 400;
+padding: 8px;
+border-top: 1px solid var(--gray);
+}
 .about {
   flex: 1;
 
