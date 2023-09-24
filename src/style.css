@@ -283,9 +283,10 @@ nav li.active a {
  height: 100%;
 }
 .projects-content-card img {
- max-width: 100%;
- height: 100%;
+ width: 100%;
+ min-height: 100%;
  object-fit: cover;
+ -o-object-fit: cover;
 }
 .projects-content-card-subtitle {
  color: var(--gray);
