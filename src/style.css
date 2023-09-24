@@ -269,7 +269,7 @@ html {
 }
 
 nav li.active a {
-    color: var(--white);
+ color: var(--white);
 }
 
 .projects-content {
