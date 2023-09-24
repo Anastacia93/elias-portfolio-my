@@ -267,6 +267,11 @@ html {
 .projects-header--link:hover {
  color: var(--primary);
 }
+
+nav li.active a {
+    color: var(--white);
+}
+
 .projects-content {
  margin-top: 48px;
  display: flex;
